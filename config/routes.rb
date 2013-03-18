@@ -3,7 +3,7 @@ Todo::Application.routes.draw do
 
   root to: 'static_pages#home'
 
-  match '/signup',  to: 'todos#new'
+  match '/new_todo',  to: 'todos#new'
 
   get "static_pages/home"
   get "static_pages/help"
